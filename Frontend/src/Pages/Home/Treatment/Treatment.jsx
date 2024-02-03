@@ -4,7 +4,7 @@ import treatment from '../../../assets/images/treatment.png';
 
 const Treatment = () => {
     return (
-        <div className='bg-gradient-to-r from-indigo-200 via-purple-200 to-pink-300 '>
+        <div className='bg-gradient-to-r from-sky-200 via-sky-100 to-sky-500 '>
             <div className="my-5 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 justify-items-center container px-3  ">
 
                 <div className='text-center'>
