@@ -9,7 +9,7 @@ const path = require("path");
 const notificationRoutes = require("./routes/notificationRoutes");
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 
 app.use(express.json());
 app.use("/api/user", userRoutes);
@@ -17,10 +17,10 @@ app.use("/api/doctor", doctorRoutes);
 app.use("/api/appointment", appointmentRoutes);
 app.use("/api/admin", adminRoutes); // use admin routes
 app.use("/api/notification", notificationRoutes);
-app.use(express.static(path.join(__dirname, "./client/build")));
+app.use(express.static(path.join(__dirname, "../Frontend/build")));
 
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "./client/build/index.html"));
+  res.sendFile(path.join(__dirname, "../Frontend/build/index.html"));
 });
 
 app.listen(port, () => {
