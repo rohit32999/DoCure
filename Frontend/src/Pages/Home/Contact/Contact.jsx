@@ -14,8 +14,8 @@ const Contact = () => {
                                     Let's Connect!
                                 </h2>
                                 <p className="text-body-color mb-9 text-base leading-relaxed" data-aos="fade-up" data-aos-duration="800">
-                                   We are a team of four members, namely, Soumyajit Mondal, Aratrik Bandyopadhyay, 
-                                   Rohit Chakrabarti and Ayishik Das, together forming Team Semicolon for Diversion'24!
+                                   We are a team of four members, namely, Soumyajit Mondal, Ayishik Das, 
+                                   Rohit Chakrabarti and Aratrik Bandyopandhyay, together forming Team Semicolon for Diversion'24!
                                 </p>
                                 <div className="mb-8 flex w-full max-w-[370px]" data-aos="fade-up" data-aos-duration="800">
                                     <div className="bg-primary text-primary mr-6 flex h-[60px] w-full max-w-[60px] items-center justify-center overflow-hidden rounded bg-opacity-5 sm:h-[70px] sm:max-w-[70px]">

@@ -5,7 +5,7 @@ const Review = ({ review }) => {
 
     return (
         <div className=" xl:w-4/5 h-auto mx-auto mb-8 md:mb-0" data-aos="fade-right" data-aos-duration="800">
-          <div className="card border-4 border-blue-500 shadow-xl">
+          <div className="card border-4 border-sky-500 shadow-xl">
             <div className="card-body p-4 md:p-6">
               <p className="text-sm md:text-base max-w-full overflow-ellipsis whitespace-normal break-words">{userReview}</p>
               <div className="flex items-center mt-4 md:mt-6">

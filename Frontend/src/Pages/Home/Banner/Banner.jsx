@@ -8,7 +8,7 @@ import Button from '@mui/material/Button';
 
 function Banner() {
     return (
-        <div className="hero py-5" data-aos="fade-up" data-aos-duration="800">
+        <div className="hero py-5 bg-sky-100" data-aos="fade-up" data-aos-duration="800">
             <div className="hero-content flex-col lg:flex-row-reverse">
                 <img src={Picture} className="rounded-lg lg:w-1/2 md:w-full shadow-2xl" alt='' />
                 <div className='lg:px-5 md:px-5 py-10 text-justify'>
