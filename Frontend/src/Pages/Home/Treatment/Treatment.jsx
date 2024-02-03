@@ -10,7 +10,7 @@ const Treatment = () => {
                 <div className='text-center'>
                     <h1 className="text-3xl justify-start pt-5 pb-5 font-bold">What Kind Of
                         <br />
-                        Treatment I Provide.</h1>
+                        Treatment We Provide.</h1>
                     <div className="avatar">
                         <div className="w-44 mask mask-hexagon">
                             <img src={treatment} alt='treatment' />
@@ -25,7 +25,9 @@ const Treatment = () => {
                         </div>
                         <div className="collapse-content">
                             <p tabIndex={0}>
-                                Common health issue Ask anything you would normally ask your GP. You can have an instant video with one of our GPs via a digital consultation from anywhere, at any time of day. Specialist advice Sometimes it's helpful to see a specialist when you want. And get educational advice, pre-screening, monitoring and follow-ups.</p>
+                            Common health issues. Ask anything you would normally. You can have an instant video conference with one of our 
+                                doctors via a digital consultation from anywhere, at any time of the day. Get diet advices, health monitoring 
+                                and follow-ups.</p>
                         </div>
                     </div>
 
@@ -35,7 +37,10 @@ const Treatment = () => {
                         </div>
                         <div className="collapse-content">
                             <p tabIndex={1}>
-                                You can register on our App and access several medical services easily. The basic video consultation service is straightforward: search for your relevant doctor with easy filters, talk to your doctor directly as included in your DocTime healthcare package or pay just prior the on-demand consultation starts. Then access your prescription uploaded by the doctor and you can order medicine or tests as recommended</p>
+                            You can register on our website and access several medical services easily. The basic video consultation service is 
+                                straightforward: search for your relevant doctor with easy filters, talk to your doctor directly as included 
+                                in your DoCare healthcare package or pay just prior to the on-demand consultation. Then access your 
+                                prescription uploaded by the doctor and you can order medicine or tests as recommended</p>
                         </div>
                     </div>
 
@@ -45,7 +50,7 @@ const Treatment = () => {
                         </div>
                         <div className="collapse-content">
                             <p tabIndex={2}>
-                                Only certified MBBS doctors can provide consultation via the DocTime app.
+                            Only certified MBBS doctors can provide consultation via the DoCare app.
                             </p>
                         </div>
                     </div>
@@ -55,7 +60,9 @@ const Treatment = () => {
                         </div>
                         <div className="collapse-content">
                             <p tabIndex={3}>
-                                Doctors are available according to their time availability. Our platform is available 24/7. Any doctor can come online at any time if they want.</p>
+                               
+                            Doctors are available according to their time availability. Our platform is available 24/7. 
+                                Any doctor can come online at any time if they want and you shall be notified accordingly.</p>
                         </div>
                     </div>
                 </div>
