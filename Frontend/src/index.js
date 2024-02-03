@@ -10,7 +10,10 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ClerkProvider, useClerk } from '@clerk/clerk-react';
 import { dark } from "@clerk/themes";
 import {OnboardingPage} from "../src/(auth)/onboarding/page";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
+AOS.init();
 const queryClient = new QueryClient();
 const PUBLISHABLE_KEY = process.env.REACT_APP_CLERK_PUBLISHABLE_KEY;
 
