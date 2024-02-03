@@ -13,13 +13,13 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <Trusted></Trusted>
-            <InfoCards></InfoCards>
+            {/* <Trusted></Trusted> */}
+            {/* <InfoCards></InfoCards> */}
             <Treatment></Treatment>
             <Services></Services>
-            <Exceptional></Exceptional>
+            {/* <Exceptional></Exceptional> */}
             <Testimonial></Testimonial>
-            <SubscriptionPlan></SubscriptionPlan>
+            {/* <SubscriptionPlan></SubscriptionPlan> */}
             <Contact></Contact> 
         </div>
     );

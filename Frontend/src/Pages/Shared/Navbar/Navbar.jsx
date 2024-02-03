@@ -26,7 +26,7 @@ const Navbar = () => {
 
 
     const manuItems = <React.Fragment>
-
+{/* 
         {
             theme === 'light' ?
                 <button onClick={() => setTheme('black')}>
@@ -37,7 +37,7 @@ const Navbar = () => {
                         <img src="https://img.icons8.com/ios/50/null/light-on--v1.png" />
                     </button>
                 </>
-        }
+        } */}
 
 
         {/* <DarkModeSwitch
