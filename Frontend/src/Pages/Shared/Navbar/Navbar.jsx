@@ -100,7 +100,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <div className="navbar font-semibold bg-gradient-to-r from-sky-400 via-gray-50 to-blue-500 flex justify-between">
+            <div className="navbar font-semibold bg-gradient-to-r fixed z-50 from-sky-400 via-gray-50 to-blue-500 flex justify-between">
                 <div className="flex-1">
 
                     {/* Dashboard Icon */}
