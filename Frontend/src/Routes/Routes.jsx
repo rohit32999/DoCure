@@ -77,7 +77,7 @@ const router = createBrowserRouter([
                         element: <MyAppointment></MyAppointment>
                     },
                     {
-                        path: '/dashboard/allUsers',
+                        path: '/dashboard/add',
                         element: <AdminRoute><AllUsers></AllUsers></AdminRoute>
                     },
                     {

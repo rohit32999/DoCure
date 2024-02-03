@@ -19,6 +19,10 @@ const doctorSchema = new mongoose.Schema({
     type: String,
     required: [true, "Example: City Hospital"],
   },
+  fee: {
+    type: Number,
+    required: [true, "Example: 100"],
+  },
 });
 
 doctorSchema.pre("save", async function (next) {
