@@ -4,8 +4,8 @@ import treatment from '../../../assets/images/treatment.png';
 
 const Treatment = () => {
     return (
-        <div className='bg-gradient-to-r from-sky-200 via-sky-100 to-sky-500 '>
-            <div className="my-5 grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 justify-items-center container px-3  ">
+        <div data-aos="fade-right" data-aos-duration="1000" className='bg-gradient-to-r from-sky-200 via-sky-100 to-sky-500 '>
+            <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 justify-items-center container px-3  ">
 
                 <div className='text-center'>
                     <h1 className="text-3xl justify-start pt-5 pb-5 font-bold">What Kind Of
