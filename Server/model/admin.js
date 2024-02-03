@@ -1,5 +1,4 @@
-// admin.model.js
-import mongoose from "mongoose";
+const mongoose = require("mongoose");
 
 const adminSchema = new mongoose.Schema({
   hospitalName: {
@@ -10,16 +9,20 @@ const adminSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  name: {
+  doctors: [{
     type: mongoose.Schema.Types.ObjectId,
-    ref: "Doctor",
-    required: true,
-  },
-  degree: {
+    ref: "Doctor"
+  }],
+  password: {
     type: String,
+    required: true,
+    minLength: 5,
   },
+  hospitalPicture: {
+    type: String,
+  }
 });
 
 const Admin = mongoose.models.Admin || mongoose.model("Admin", adminSchema);
 
-export default Admin;
+module.exports = Admin;

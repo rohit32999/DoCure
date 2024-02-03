@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const schema = mongoose.Schema(
+const NotificationSchema = mongoose.Schema(
   {
     userId: {
       type: mongoose.Schema.Types.ObjectId,
@@ -21,6 +21,6 @@ const schema = mongoose.Schema(
   }
 );
 
-const Notification = mongoose.model("Notification", schema);
+const Notification = mongoose.model("Notification", NotificationSchema);
 
 module.exports = Notification;

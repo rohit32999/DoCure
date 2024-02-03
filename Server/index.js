@@ -1,23 +1,28 @@
-const express = require('express');
-const connectToDB = require('./db/mongoose.js');
+const express = require("express");
+require("dotenv").config();
+require("./db/mongoose");
+const userRoutes = require("./routes/userRoutes.js");
+const doctorRoutes = require("./routes/doctorRoutes");
+const appointmentRoutes = require("./routes/appointmentRoutes");
+const adminRoutes = require("./routes/adminRoutes");
+const path = require("path");
+const notificationRoutes = require("./routes/notificationRoutes");
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5000;
 
-// Connect to the database
-connectToDB()
-  .then(() => {
-    // Start the server after the database connection is established
-    app.listen(port, () => {
-      console.log(`Server is running on port ${port}`);
-    });
-  })
-  .catch((error) => {
-    console.error('Failed to connect to the database:', error);
-  });
+app.use(express.json());
+app.use("/api/user", userRoutes);
+app.use("/api/doctor", doctorRoutes);
+app.use("/api/appointment", appointmentRoutes);
+app.use("/api/admin", adminRoutes); // use admin routes
+app.use("/api/notification", notificationRoutes);
+app.use(express.static(path.join(__dirname, "./client/build")));
 
-// Define your routes here
-// For example, a simple GET route might look like this:
-app.get('/', (req, res) => {
-  res.send('Hello, world!');
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "./client/build/index.html"));
+});
+
+app.listen(port, () => {
+  console.log(`Server is running on port: ${port}`);
 });

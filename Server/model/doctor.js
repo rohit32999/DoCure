@@ -1,6 +1,12 @@
 const mongoose = require("mongoose");
 
 const doctorSchema = new mongoose.Schema({
+  userId: {
+    type: mongoose.SchemaTypes.ObjectId,
+    ref: "User",
+    required: true,
+    unique: true,
+  },
   degree: {
     type: String,
     required: [true, "Example: Doctor of Medicine"],
@@ -12,12 +18,6 @@ const doctorSchema = new mongoose.Schema({
   hospital: {
     type: String,
     required: [true, "Example: City Hospital"],
-  },
-  name: {
-    type: mongoose.Schema.Types.ObjectId,
-    ref: "User",
-    required: true,
-    unique: true,
   },
 });
 
