@@ -1,0 +1,136 @@
+[
+    
+    {
+        "_id": 1,
+        "name": "Dr. Elda Mills",
+        "treatmentName": "Medical",
+        "doctorsImg": "https://i.ibb.co/xJBZZnH/download.jpg",
+        "price": "99",
+        "slots": [
+            "08.00 AM - 08.30 AM",
+            "08.30 AM - 09.00 AM",
+            "09.00 AM - 9.30 AM",
+            "09.30 AM - 10.00 AM",
+            "10.00 AM - 10.30 AM",
+            "10.30 AM - 11.00 AM",
+            "11.00 AM - 11.30 AM",
+            "11.30 AM - 12.00 AM",
+            "1.00 PM - 1.30 PM",
+            "1.30 PM - 2.00 PM",
+            "2.00 PM - 2.30 PM",
+            "2.30 PM - 3.00 PM",
+            "3.00 PM - 3.30 PM",
+            "3.30 PM - 4.00 PM",
+            "4.00 PM - 4.30 PM",
+            "4.30 PM - 5.00 PM"
+        ]
+    },
+    {
+        "_id": 2,
+        "name": "Dr. Goncalves Silva",
+        "treatmentName": "Physiologist",
+        "doctorsImg": "https://i.ibb.co/3YqjmM9/images-2.jpg",
+        "price": "99",
+        "slots": [
+            "08.00 AM - 08.30 AM",
+            "08.30 AM - 09.00 AM",
+            "09.00 AM - 9.30 AM",
+            "09.30 AM - 10.00 AM",
+            "10.00 AM - 10.30 AM",
+            "10.30 AM - 11.00 AM",
+            "11.00 AM - 11.30 AM",
+            "11.30 AM - 12.00 AM",
+            "1.00 PM - 1.30 PM",
+            "1.30 PM - 2.00 PM",
+            "2.00 PM - 2.30 PM",
+            "2.30 PM - 3.00 PM",
+            "3.00 PM - 3.30 PM",
+            "3.30 PM - 4.00 PM",
+            "4.00 PM - 4.30 PM",
+            "4.30 PM - 5.00 PM"
+        ]
+    },
+    {
+        "_id": 3,
+        "name": "Dr. Daniel Castro",
+        "treatmentName": "Consultant",
+        "doctorsImg": "https://i.ibb.co/nDxT0Px/doctor.webp",
+        "price": "99",
+        "slots": [
+            "08.00 AM - 08.30 AM",
+            "08.30 AM - 09.00 AM",
+            "09.00 AM - 9.30 AM",
+            "09.30 AM - 10.00 AM",
+            "10.00 AM - 10.30 AM",
+            "10.30 AM - 11.00 AM",
+            "11.00 AM - 11.30 AM",
+            "11.30 AM - 12.00 AM",
+            "1.00 PM - 1.30 PM",
+            "1.30 PM - 2.00 PM",
+            "2.00 PM - 2.30 PM",
+            "2.30 PM - 3.00 PM",
+            "3.00 PM - 3.30 PM",
+            "3.30 PM - 4.00 PM",
+            "4.00 PM - 4.30 PM",
+            "4.30 PM - 5.00 PM"
+        ]
+    },
+    {
+        "_id": 4,
+        "name": "Dr. Paulo Goncalves",
+        "treatmentName": "Surgical",
+        "doctorsImg": "https://i.ibb.co/tJ598zq/images-1.jpg",
+        "price": "99",
+        "slots": [
+            "08.00 AM - 08.30 AM",
+            "08.30 AM - 09.00 AM",
+            "09.00 AM - 9.30 AM",
+            "09.30 AM - 10.00 AM",
+            "10.00 AM - 10.30 AM",
+            "10.30 AM - 11.00 AM",
+            "11.00 AM - 11.30 AM",
+            "11.30 AM - 12.00 AM",
+            "1.00 PM - 1.30 PM",
+            "1.30 PM - 2.00 PM",
+            "2.00 PM - 2.30 PM",
+            "2.30 PM - 3.00 PM",
+            "3.00 PM - 3.30 PM",
+            "3.30 PM - 4.00 PM",
+            "4.00 PM - 4.30 PM",
+            "4.30 PM - 5.00 PM"
+        ]
+    },
+    {
+        "_id": 5,
+        "name": "Dr. Carolina Rocha",
+        "treatmentName": "Therapist",
+        "doctorsImg": "https://i.ibb.co/jZhQqzD/doctor2.webp",
+        "price": "99",
+        "slots": []
+    },
+    {
+        "_id": 6,
+        "name": "Dr. Ethan Mills",
+        "treatmentName": "Psychiatrist",
+        "doctorsImg": "https://i.ibb.co/VMZJGC5/doctor1.webp",
+        "price": "99",
+        "slots": [
+            "08.00 AM - 08.30 AM",
+            "08.30 AM - 09.00 AM",
+            "09.00 AM - 9.30 AM",
+            "09.30 AM - 10.00 AM",
+            "10.00 AM - 10.30 AM",
+            "10.30 AM - 11.00 AM",
+            "11.00 AM - 11.30 AM",
+            "11.30 AM - 12.00 AM",
+            "1.00 PM - 1.30 PM",
+            "1.30 PM - 2.00 PM",
+            "2.00 PM - 2.30 PM",
+            "2.30 PM - 3.00 PM",
+            "3.00 PM - 3.30 PM",
+            "3.30 PM - 4.00 PM",
+            "4.00 PM - 4.30 PM",
+            "4.30 PM - 5.00 PM"
+        ]
+    }
+]
