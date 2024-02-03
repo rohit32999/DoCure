@@ -143,7 +143,7 @@ You must have followings installed  in your system , If you dont we got you cove
 ## Installation
 1. clone repo
  ```
-  git clone : https://github.com/Soumyajit2825/Blood-Sphere.git
+  git clone : https://github.com/Soumyajit2825/DoCure.git
    ```
   **_Front-end Installation_**
 1. Navigate to frontend folder
