@@ -53,12 +53,7 @@
   </ol>
 </details>
   <!-- ABOUT THE PROJECT -->
-  
-  # :hospital: About The Project :ambulance:
 
-
-
-![UI/UX](https://github.com/Koustavjr/Blood-Sphere/blob/master/Frontend/src/Images/photo_2023-08-28_17-44-40.jpg)
 
 ### 💭Inspiration
 
