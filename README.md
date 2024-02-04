@@ -77,23 +77,23 @@ Imagine there is a public health crisis or emergency, such as a natural disaster
 
 
 ### 🙌Overview 
-•	On the landing page, see the buttons ‘Search for Blood’ and ‘Donate Blood’ respectively.
+•	On the landing page of DoCure, we can see the buttons "Get free consultation" and "Book an appointment".
 
-•	Clicking on the button will take you to our Bot – ‘BloodSphere Bot’
+•	Clicking on the button will take you to our dashboard, where there is a hierarchial way for admins and users to go through the website.
 
-•	Start interacting with the bot through commands such as ‘/start’, ‘/get’ and ‘/donate’.
+•	Start interacting with the website, using features of our various services, appointments, patient portals, health records, etc.
 
-•	Enter your respective PIN code to get location and details of all the nearby blood banks and hospitals.
+•	Online video conferencing is also available for bedridden and emergency patients.
 
 
 ### 💀Challenges we Faced:
 •	Creating the ML model was difficult for us because of the unavailability of any concrete data set.
 
-• 
+• Connecting the backend to the database was a bit complex!
 
-•	 
+•	Integrating the video conferencing app to our project took a bit of time.
 
-•	
+•	In the absense of a full time designer, we were in a fix regarding the UI of our project.
 
 
  
@@ -112,17 +112,11 @@ Imagine there is a public health crisis or emergency, such as a natural disaster
 
 
 - <img src = "https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" style="margin-top: 40px" height=30px width=30px > *React*- For developing the Front-end UI <br> 
-- <img src = "https://github.com/Koustavjr/Blood-Sphere/blob/master/Frontend/src/Images/tailwind-removebg-preview.png" height=40px width=40px>*Tailwind Css and Daisy UI*- For designing the UI  <br>
+- <img src = "https://github.com/Koustavjr/Blood-Sphere/blob/master/Frontend/src/Images/tailwind-removebg-preview.png" height=40px width=40px>*Tailwind Css and <Material UI*- For designing the UI  <br>
 
 - <img src = "https://juststickers.in/wp-content/uploads/2019/01/webpack-logo.png" height=40px width=40px> *WebPack* - Used to bundle the JavaScript packages  <br>
 - <img src = "https://th.bing.com/th/id/OIP.wF-2BeX_-oRQVMGVyQxfowHaEc?pid=ImgDet&rs=1](https://brandlogos.net/wp-content/uploads/2021/09/bootstrap-logo.png" height=40px width=40px >*Bootstrap*- Used for Designing the front-end <br>
 - <img src = "https://cdn.freebiesupply.com/logos/large/2x/auth0-logo-png-transparent.png" height=40px width=40px>*Auth0*- Used For making the sign in/Login handler  <br>
-- <img src = "https://th.bing.com/th/id/R.4227717661d4e253127c591194bf6fe9?rik=JNbva6iP8QTsXw&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fpython-logo-transparent%2fpython-logo-transparent-5.jpg&ehk=fd687R1W1S%2fYQ9PAACxGKzTy%2bLNdngxem8mtMtcFzBg%3d&risl=&pid=ImgRaw&r=0" height=40px width=40px> *Python* - Used for developing the backend and connecting the telegramBotApi for handling the messages  <br>
-- <img src="https://scrapingant.com/blog/img/blog/beautifulsoup-logo.png" height=50px width=50px> *BeautifulSoup4*- used for scraping data from [Website](https://www.eraktkosh.in/BLDAHIMS/bloodbank/transactions/bbpublicindex.html)  
-- <img src="https://th.bing.com/th/id/OIP.710tCvb0eHNtcf8DbFOTdwHaHa?pid=ImgDet&rs=1" height=40px width=40px> API used: <br>
-            1. Google Map API  <br>
-            2. Zip Code Base API <br>
-            3. Telegram Bot API <br>
 - *Email JS* - Use for sending email to user client side technology 
 - <img src="https://th.bing.com/th/id/OIP.P5VJJoua7vc00-2-LBGi8QHaHa?pid=ImgDet&rs=1" height=40px width=40px> Deployment is done in FLy.io
 
@@ -138,8 +132,7 @@ For setting up your project locally, follow these simple steps.
 ### Prerequisites
 You must have followings installed  in your system , If you dont we got you covered  
 1. [Install NPM](https://phoenixnap.com/kb/install-node-js-npm-on-windows)
-2. [Install Pip](https://pip.pypa.io/en/stable/cli/pip_install/)
-3. [Python Download](https://www.python.org/downloads/)
+   
 ## Installation
 1. clone repo
  ```
@@ -189,20 +182,6 @@ $ python app.py
 </div>
 <p align="right">(<a href="#top">back to top</a>)</p> -->
 
-
-
-<!-- How to  Use -->
-## How To Use:
-&nbsp; 
-- [x] Open DoCure Website
-- [x] Login With Your Credentials
-- [x] Click on Search/Donate
-- [x] Interact with the bot to meet your purpose
-     ### Commands To Interact
-- [x] /start - to start interacting with the bot
-- [x] /get - to search blood groups
-- [x] /donate - to find nearby blood donation camps
-- [ ] Live data fetch and update(Future plan)
 ### WorkFLow
 
 ![Untitled-2024-02-02-2259](https://github.com/rohit32999/DoCure1/assets/97951485/bee4d9ac-9dc2-4bf5-8b33-aef0c332a176)
@@ -237,8 +216,8 @@ Don't forget to ⭐ this project!!
 <h1 align="center">
  <b>Made with ❤️ by Team Semicolon..
 <h1>
-<a href="https://github.com/Soumyajit2825/Blood-Sphere/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Soumyajit2825/Blood-Sphere" />
+<a href="https://github.com/Soumyajit2825/DocCure/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Soumyajit2825/DocCure" />
 </a>
 </div>
 
@@ -275,4 +254,6 @@ Don't forget to ⭐ this project!!
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+
+
 
