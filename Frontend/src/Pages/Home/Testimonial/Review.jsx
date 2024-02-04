@@ -4,7 +4,7 @@ const Review = ({ review }) => {
     const { name, img, review: userReview, location } = review;
 
     return (
-        <div className=" xl:w-4/5 h-auto mx-auto mb-8 md:mb-0" data-aos="fade-right" data-aos-duration="800">
+        <div className=" xl:w-4/5 h-auto mx-auto mb-8 md:mb-0" data-aos="fade-left" data-aos-duration="800">
           <div className="card border-4 border-sky-500 shadow-xl">
             <div className="card-body p-4 md:p-6">
               <p className="text-sm md:text-base max-w-full overflow-ellipsis whitespace-normal break-words">{userReview}</p>
