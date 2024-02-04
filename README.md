@@ -126,7 +126,6 @@ Imagine there is a public health crisis or emergency, such as a natural disaster
 
 ## Tracks Used:
 1. Best use of MongoDB Atlas.
-2. Best domain name from GoDaddy Registry.
 <!-- GETTING STARTED -->
 ## Getting Started
 For setting up your project locally, follow these simple steps.
@@ -161,13 +160,12 @@ $ cd Backend
 ```
 2. Install required libraries
 ```
-$ pip instsall -r requirements.txt
+3. Run command
 ```
-3. Add your zipcodebase API key and telegram bot API key
-4. To run script
-```
-$ python app.py
-```
+$ node index.js
+
+ ```
+
 
  
     
