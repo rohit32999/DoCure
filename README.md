@@ -112,17 +112,11 @@ Imagine there is a public health crisis or emergency, such as a natural disaster
 
 
 - <img src = "https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" style="margin-top: 40px" height=30px width=30px > *React*- For developing the Front-end UI <br> 
-- <img src = "https://github.com/Koustavjr/Blood-Sphere/blob/master/Frontend/src/Images/tailwind-removebg-preview.png" height=40px width=40px>*Tailwind Css and Daisy UI*- For designing the UI  <br>
+- <img src = "https://github.com/Koustavjr/Blood-Sphere/blob/master/Frontend/src/Images/tailwind-removebg-preview.png" height=40px width=40px>*Tailwind Css and <Material UI*- For designing the UI  <br>
 
 - <img src = "https://juststickers.in/wp-content/uploads/2019/01/webpack-logo.png" height=40px width=40px> *WebPack* - Used to bundle the JavaScript packages  <br>
 - <img src = "https://th.bing.com/th/id/OIP.wF-2BeX_-oRQVMGVyQxfowHaEc?pid=ImgDet&rs=1](https://brandlogos.net/wp-content/uploads/2021/09/bootstrap-logo.png" height=40px width=40px >*Bootstrap*- Used for Designing the front-end <br>
 - <img src = "https://cdn.freebiesupply.com/logos/large/2x/auth0-logo-png-transparent.png" height=40px width=40px>*Auth0*- Used For making the sign in/Login handler  <br>
-- <img src = "https://th.bing.com/th/id/R.4227717661d4e253127c591194bf6fe9?rik=JNbva6iP8QTsXw&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fpython-logo-transparent%2fpython-logo-transparent-5.jpg&ehk=fd687R1W1S%2fYQ9PAACxGKzTy%2bLNdngxem8mtMtcFzBg%3d&risl=&pid=ImgRaw&r=0" height=40px width=40px> *Python* - Used for developing the backend and connecting the telegramBotApi for handling the messages  <br>
-- <img src="https://scrapingant.com/blog/img/blog/beautifulsoup-logo.png" height=50px width=50px> *BeautifulSoup4*- used for scraping data from [Website](https://www.eraktkosh.in/BLDAHIMS/bloodbank/transactions/bbpublicindex.html)  
-- <img src="https://th.bing.com/th/id/OIP.710tCvb0eHNtcf8DbFOTdwHaHa?pid=ImgDet&rs=1" height=40px width=40px> API used: <br>
-            1. Google Map API  <br>
-            2. Zip Code Base API <br>
-            3. Telegram Bot API <br>
 - *Email JS* - Use for sending email to user client side technology 
 - <img src="https://th.bing.com/th/id/OIP.P5VJJoua7vc00-2-LBGi8QHaHa?pid=ImgDet&rs=1" height=40px width=40px> Deployment is done in FLy.io
 
@@ -223,7 +217,16 @@ Don't forget to ⭐ this project!!
 <h1 align="center">
  <b>Made with ❤️ by Team Semicolon..
 <h1>
-<a href="https://github.com/Soumyajit2825/Blood-Sphere/graphs/contributors">
+<a href="https://github.com/Soumyajit2825/DocCure/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Soumyajit2825/Blood-Sphere" />
+</a>
+  <a href="https://github.com/Soumyajit2825/DocCure/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Soumyajit2825/Blood-Sphere" />
+</a>
+  <a href="https://github.com/Soumyajit2825/DocCure/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Soumyajit2825/Blood-Sphere" />
+</a>
+  <a href="https://github.com/Soumyajit2825/DocCure/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Soumyajit2825/Blood-Sphere" />
 </a>
 </div>
@@ -261,4 +264,6 @@ Don't forget to ⭐ this project!!
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
+
+
 
