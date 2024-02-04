@@ -132,8 +132,7 @@ For setting up your project locally, follow these simple steps.
 ### Prerequisites
 You must have followings installed  in your system , If you dont we got you covered  
 1. [Install NPM](https://phoenixnap.com/kb/install-node-js-npm-on-windows)
-2. [Install Pip](https://pip.pypa.io/en/stable/cli/pip_install/)
-3. [Python Download](https://www.python.org/downloads/)
+   
 ## Installation
 1. clone repo
  ```
