@@ -217,16 +217,7 @@ Don't forget to ⭐ this project!!
  <b>Made with ❤️ by Team Semicolon..
 <h1>
 <a href="https://github.com/Soumyajit2825/DocCure/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Soumyajit2825/Blood-Sphere" />
-</a>
-  <a href="https://github.com/Soumyajit2825/DocCure/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Soumyajit2825/Blood-Sphere" />
-</a>
-  <a href="https://github.com/Soumyajit2825/DocCure/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Soumyajit2825/Blood-Sphere" />
-</a>
-  <a href="https://github.com/Soumyajit2825/DocCure/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Soumyajit2825/Blood-Sphere" />
+  <img src="https://contrib.rocks/image?repo=Soumyajit2825/DocCure" />
 </a>
 </div>
 
