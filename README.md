@@ -77,23 +77,23 @@ Imagine there is a public health crisis or emergency, such as a natural disaster
 
 
 ### 🙌Overview 
-•	On the landing page, see the buttons ‘Search for Blood’ and ‘Donate Blood’ respectively.
+•	On the landing page of DoCure, we can see the buttons "Get free consultation" and "Book an appointment".
 
-•	Clicking on the button will take you to our Bot – ‘BloodSphere Bot’
+•	Clicking on the button will take you to our dashboard, where there is a hierarchial way for admins and users to go through the website.
 
-•	Start interacting with the bot through commands such as ‘/start’, ‘/get’ and ‘/donate’.
+•	Start interacting with the website, using features of our various services, appointments, patient portals, health records, etc.
 
-•	Enter your respective PIN code to get location and details of all the nearby blood banks and hospitals.
+•	Online video conferencing is also available for bedridden and emergency patients.
 
 
 ### 💀Challenges we Faced:
 •	Creating the ML model was difficult for us because of the unavailability of any concrete data set.
 
-• 
+• Connecting the backend to the database was a bit complex!
 
-•	 
+•	Integrating the video conferencing app to our project took a bit of time.
 
-•	
+•	In the absense of a full time designer, we were in a fix regarding the UI of our project.
 
 
  
