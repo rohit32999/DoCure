@@ -216,10 +216,7 @@ Don't forget to ⭐ this project!!
 <div>
 <h1 align="center">
  <b>Made with ❤️ by Team Semicolon..
-<h1>
-<a href="https://github.com/Soumyajit2825/DocCure/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Soumyajit2825/DocCure" />
-</a>
+ </h1>
 </div>
 
 
