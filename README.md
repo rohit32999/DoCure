@@ -187,9 +187,9 @@ To run tests, use the following command:
 
 ```bash
 npm test
+```
 
 
- 
     
 
 <p align="right">(<a href="#top">back to top</a>)</p>
