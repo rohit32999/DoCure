@@ -150,7 +150,6 @@ npm i
 npm start
 ```
 **_Backend Installation_**
-If you do not want to deploy the bot, bot is already deployed: https://t.me/blood_sphere_bot
 1. **Clone the repository:**
 
     ```bash
