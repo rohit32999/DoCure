@@ -116,10 +116,7 @@ Imagine there is a public health crisis or emergency, such as a natural disaster
 - <img src = "https://github.com/Koustavjr/Blood-Sphere/blob/master/Frontend/src/Images/tailwind-removebg-preview.png" height=40px width=40px>*Tailwind Css and <Material UI*- For designing the UI  <br>
 
 - <img src = "https://juststickers.in/wp-content/uploads/2019/01/webpack-logo.png" height=40px width=40px> *WebPack* - Used to bundle the JavaScript packages  <br>
-- <img src = "https://th.bing.com/th/id/OIP.wF-2BeX_-oRQVMGVyQxfowHaEc?pid=ImgDet&rs=1](https://brandlogos.net/wp-content/uploads/2021/09/bootstrap-logo.png" height=40px width=40px >*Bootstrap*- Used for Designing the front-end <br>
-- <img src = "https://cdn.freebiesupply.com/logos/large/2x/auth0-logo-png-transparent.png" height=40px width=40px>*Auth0*- Used For making the sign in/Login handler  <br>
-- *Email JS* - Use for sending email to user client side technology 
-- <img src="https://th.bing.com/th/id/OIP.P5VJJoua7vc00-2-LBGi8QHaHa?pid=ImgDet&rs=1" height=40px width=40px> Deployment is done in FLy.io
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
