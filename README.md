@@ -229,7 +229,6 @@ Don't forget to ⭐ this project!!
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
-## Contributors :gem:
 
 <br>
 <div>
