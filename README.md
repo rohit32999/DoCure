@@ -111,8 +111,8 @@ Imagine there is a public health crisis or emergency, such as a natural disaster
 - <img src = "https://github.com/Koustavjr/Blood-Sphere/blob/master/Frontend/src/Images/tailwind-removebg-preview.png" height=40px width=40px>*Tailwind Css and <Material UI*- For designing the UI  <br>
 
 - <img src = "https://juststickers.in/wp-content/uploads/2019/01/webpack-logo.png" height=40px width=40px> *WebPack* - Used to bundle the JavaScript packages  <br>
-<h2>ExpressJS</h2>
-<h2>MongoDB</h2>
+<h3>ExpressJS</h3>
+<h3>MongoDB</h3>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
