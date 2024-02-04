@@ -1,11 +1,11 @@
 import React from 'react';
 
 const Contact = () => {
-
     return (
         <div>
-            <section id='contact' className="overflow-hidden bg-white px-10">
+            <section id='contact' className="mt-10 h-screen overflow-hidden bg-white px-10">
                 <div className="container mx-auto">
+<<<<<<< HEAD
                     <div className="-mx-4 flex flex-wrap lg:justify-between">
                         <div className="w-full px-4 lg:w-1/2 xl:w-6/12">
                             <div className="my-12 max-w-[570px] lg:mb-0">
@@ -59,6 +59,12 @@ const Contact = () => {
                         </div>
                         <div className="w-full px-4 lg:w-1/2 xl:w-5/12">
                             <div className="relative rounded-lg bg-white p-8 shadow-lg sm:p-12">
+=======
+                    <div className="flex justify-center">
+                        <div data-aos="fade-up" data-aos-duration="800" className="w-full md:w-3/4 flex items-center justify-center"> {/* Increased form width */}
+                            <div className="relative rounded-lg bg-white p-8 shadow-lg sm:p-12 w-full"> {/* Increased form width */}
+                                <h2 data-aos="fade-up" data-aos-duration="800" className="text-3xl font-bold text-center mb-8">Connect With Us</h2> {/* Heading with AOS */}
+>>>>>>> 36f7b4d1ef013de2007562ff79650c6b0960df9e
                                 <form>
                                     <div className="mb-6">
                                         <input type="text" placeholder="Your Name" className="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none" />
@@ -78,23 +84,11 @@ const Contact = () => {
                                         </button>
                                     </div>
                                 </form>
-                                <div>
-                                    <span className="absolute -top-10 -right-9 z-[-1]">
-                                        <svg width={100} height={100} viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path fillRule="evenodd" clipRule="evenodd" d="M0 100C0 44.7715 0 0 0 0C55.2285 0 100 44.7715 100 100C100 100 100 100 0 100Z" fill="#3056D3" />
-                                        </svg>
-                                    </span>
-                                    <span className="absolute -right-10 top-[90px] z-[-1]">
-                                    </span>
-                                    <span className="absolute -left-7 -bottom-7 z-[-1]">
-                                    </span>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-
         </div>
     );
 };

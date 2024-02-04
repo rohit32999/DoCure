@@ -76,7 +76,7 @@ const Testimonial = () => {
 
 
     return (
-        <section className='my-16'>
+        <section className='bg-sky-100 p-5 my-16'>
             <div className='flex flex-col lg:flex-row justify-between'>
             <div className='lg:pl-10'>
               <h4 className='text-2xl text-primary font-bold' data-aos="fade-right" data-aos-duration="800">Testimonial</h4>
