@@ -189,20 +189,6 @@ $ python app.py
 </div>
 <p align="right">(<a href="#top">back to top</a>)</p> -->
 
-
-
-<!-- How to  Use -->
-## How To Use:
-&nbsp; 
-- [x] Open DoCure Website
-- [x] Login With Your Credentials
-- [x] Click on Search/Donate
-- [x] Interact with the bot to meet your purpose
-     ### Commands To Interact
-- [x] /start - to start interacting with the bot
-- [x] /get - to search blood groups
-- [x] /donate - to find nearby blood donation camps
-- [ ] Live data fetch and update(Future plan)
 ### WorkFLow
 
 ![Untitled-2024-02-02-2259](https://github.com/rohit32999/DoCure1/assets/97951485/bee4d9ac-9dc2-4bf5-8b33-aef0c332a176)
