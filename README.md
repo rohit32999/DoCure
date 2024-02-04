@@ -151,17 +151,42 @@ npm start
 ```
 **_Backend Installation_**
 If you do not want to deploy the bot, bot is already deployed: https://t.me/blood_sphere_bot
-1. Navigate to Backend Folder
-```
-$ cd Backend
-```
-2. Install required libraries
-```
-3. Run command
-```
-$ node index.js
+1. **Clone the repository:**
 
- ```
+    ```bash
+    git clone <repository-url>
+    cd <repository-name>
+    ```
+
+2. **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+3. **Set up environment variables:**
+
+    Create a `.env` file in the root directory of the project and add the necessary environment variables. For example:
+
+    ```plaintext
+    PORT=3000
+    DB_URI=mongodb://localhost:27017/your_database
+    ```
+
+4. **Start the server:**
+
+    ```bash
+    node server.js
+    ```
+
+    Replace `server.js` with the actual entry point of your backend if it's different.
+
+## Testing
+
+To run tests, use the following command:
+
+```bash
+npm test
 
 
  
