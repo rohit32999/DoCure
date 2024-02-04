@@ -4,8 +4,8 @@ import SingleBlog from '../Pages/Extra/Blog/SingleBlog';
 import Appointment from '../Pages/Extra/Appointments/Appointment';
 import PrivateRoutes from './PrivateRoutes';
 import About from "../Pages/Extra/About/About";
-import Login from "../(auth)/sign_in/[[sign_in]]/page";
-import SignUp from "../(auth)/sign_up/[[sign_up]]/page";
+// import Login from "../(auth)/sign_in/[[sign_in]]/page";
+// import SignUp from "../(auth)/sign_up/[[sign_up]]/page";
 import Services from '../Pages/Services/Services'
 import SingleService from '../Pages/Services/SingleService'
 import DashboardLayout from "../Layout/DashboardLayout";
@@ -59,44 +59,44 @@ const router = createBrowserRouter([
                 loader: async ({ params }) => fetch(`https://doc-service-server-mocha.vercel.app/blogs/${params.id}`),
 
             },
-            {
-                path: '/signup',
-                element: <SignUp></SignUp>
-            },
-            {
-                path: '/login',
-                element: <Login></Login>
-            },
+            // {
+            //     path: '/signup',
+            //     element: <SignUp></SignUp>
+            // },
+            // {
+            //     path: '/login',
+            //     element: <Login></Login>
+            // },
 
-            {
-                path: '/dashboard',
-                element: <PrivateRoutes> <DashboardLayout></DashboardLayout>     </PrivateRoutes>,
-                children: [
-                    {
-                        path: '/dashboard/myAppointment',
-                        element: <MyAppointment></MyAppointment>
-                    },
-                    {
-                        path: '/dashboard/add',
-                        element: <AdminRoute><AllUsers></AllUsers></AdminRoute>
-                    },
-                    {
-                        path: '/dashboard/addDoctor',
-                        element: <AdminRoute><AddDoctor></AddDoctor>
-                        </AdminRoute>
-                    },
-                    {
-                        path: '/dashboard/manageDoctors',
-                        element: <AdminRoute><ManageDoctors></ManageDoctors>
-                        </AdminRoute>
-                    },
-                    {
-                        path: '/dashboard/payment/:id',
-                        element: <Payment></Payment>,
-                        loader: ({ params }) => fetch(`https://doc-service-server-mocha.vercel.app/bookings/${params.id}`)
-                    },
-                ]
-            },
+            // {
+            //     path: '/dashboard',
+            //     element: <PrivateRoutes> <DashboardLayout></DashboardLayout>     </PrivateRoutes>,
+            //     children: [
+            //         {
+            //             path: '/dashboard/myAppointment',
+            //             element: <MyAppointment></MyAppointment>
+            //         },
+            //         {
+            //             path: '/dashboard/add',
+            //             element: <AdminRoute><AllUsers></AllUsers></AdminRoute>
+            //         },
+            //         {
+            //             path: '/dashboard/addDoctor',
+            //             element: <AdminRoute><AddDoctor></AddDoctor>
+            //             </AdminRoute>
+            //         },
+            //         {
+            //             path: '/dashboard/manageDoctors',
+            //             element: <AdminRoute><ManageDoctors></ManageDoctors>
+            //             </AdminRoute>
+            //         },
+            //         {
+            //             path: '/dashboard/payment/:id',
+            //             element: <Payment></Payment>,
+            //             loader: ({ params }) => fetch(`https://doc-service-server-mocha.vercel.app/bookings/${params.id}`)
+            //         },
+            //     ]
+            // },
         ]
     }
 ]);
