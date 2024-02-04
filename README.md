@@ -4,7 +4,8 @@
 <br />
 <div align="center">
   
-![DOC](https://github.com/rohit32999/DoCure1/assets/97951485/5bbed1ce-ad46-45d7-8702-aed8555288c9)
+
+![Untitled](https://github.com/Soumyajit2825/DoCure/assets/100519291/6df193bb-331e-4b8d-b939-1c1e1ef46154)
 
 
 </div>
